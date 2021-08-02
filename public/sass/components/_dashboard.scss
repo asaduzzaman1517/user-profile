@@ -1,0 +1,96 @@
+.dashboard {
+    background: $light-bg;
+    &__list {
+        height: calc(100vh - 160px);
+    }
+    &__left-menu {
+        max-width: 120px;
+        min-height: 100vh;
+        height: 100%;
+        background: $white;
+        box-shadow: 5px 0 20px rgba($dark, 0.1);
+        &-item {
+            border-bottom: 1px solid $border;
+            &:last-child {
+                border-top: 1px solid $border;
+            }
+        }
+    }
+    &__icon {
+        display: inline-block;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding: 14px;
+        border-radius: 5px;
+        transition: all .3s ease;
+        &:hover {
+            box-shadow: 0px 10px 25px rgba($dark, .2);
+        }
+        &--alpha {
+            background: $alpha;
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+        &--beta {
+            background: $beta;
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+        &--gamma {
+            background: $gamma;
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+        &--danger {
+            background: $danger;
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+        &-text {
+            display: block;
+            color: $text-clr;
+            &:hover {
+                color: $heading-clr;
+            }
+        }
+    }
+    &__logo {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        background: $success;
+        border: 5px solid $white;
+        box-shadow: 0 0 20px rgba($dark, 0.1);
+        &-text {
+            font-size: 1.5rem;
+            letter-spacing: 0.03em;
+            font-family: $heading-font;
+            font-weight: 700;
+            color: $white;
+            line-height: 1;
+        }
+    }
+
+    &__sidebar {
+        min-height: 100vh;
+        height: 100%;
+        background: $white;
+        box-shadow: 5px 0 20px rgba($dark, 0.1);
+    }
+    &__body {
+        background: $white;
+        border-radius: 10px;
+        min-height: calc(100vh - 82px);
+    }
+}

@@ -1,0 +1,13 @@
+.profile-card {
+    padding: 40px 25px;
+    background: $light-bg;
+    border-radius: 15px;
+    &__head {
+        display: flex;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 1;
+        font-weight: 500;
+    }
+}

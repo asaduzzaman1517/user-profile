@@ -1,0 +1,30 @@
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    &--row {
+        flex-direction: row;
+        &__item {
+            margin-right: 1rem;
+            &:last-child {
+                margin-right: 0;
+            }
+            &-dens {
+                margin-right: 0.5rem;
+            }
+            &-free {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+    &--column {
+        flex-direction: column;
+        &__item {
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

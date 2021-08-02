@@ -1,0 +1,30 @@
+.login-banner {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    &-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #4158d0;
+    }
+    &__body {
+        padding: 60px 30px;
+    }
+    
+    &__text {
+        max-width: 60ch;
+        color: $white;
+    }
+    &__title {
+        color: $white;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: $white;
+        text-transform: capitalize;
+    }
+    &__img {
+        max-width: 550px;
+    }
+}

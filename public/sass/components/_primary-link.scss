@@ -1,0 +1,13 @@
+.primary-link {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-family: $heading-font;
+    color: $heading-clr;
+    text-transform: capitalize;
+    transition: all .3s ease;
+    font-weight: 600;
+    font-size: 14px;
+    &:hover {
+        color: $primary;
+    }
+}

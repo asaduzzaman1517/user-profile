@@ -1,0 +1,44 @@
+.similar-profile {
+    background: $white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba($dark, .04);
+    &__img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid $white;
+        box-shadow: 0 0  15px rgba($dark, .1);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &__name {
+        display: block;
+        font-size: 20px;
+        color: $heading-clr;
+        font-family: $heading-font;
+        font-weight: 600;
+        transition: all .3s ease;
+        &:hover {
+            color: $danger;
+        }
+    }
+    &__info {
+        font-family: $heading-font;
+    }
+    &__content {
+        padding: 25px 15px;
+        border-radius: 15px 0 0 15px;
+        background: lighten($light-bg, 1%);
+    }
+    &__link {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 30px;
+        color: $danger;
+        &:hover {
+            color: $danger;
+        }
+    }
+}

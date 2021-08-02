@@ -1,0 +1,25 @@
+.search-box {
+    border: 1px solid darken($border, 20%);
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    &__input {
+        padding-left: 20px;
+        border: none;
+        background: transparent;
+        &:focus {
+            border: none;
+            background: transparent;
+            box-shadow: none;
+        }
+        &::placeholder {
+            text-transform: capitalize;
+            color: $text-clr;
+            font-size: 14px;
+        }
+    }
+    &__icon {
+        padding: 10px 20px;
+        line-height: 1;
+    }
+}

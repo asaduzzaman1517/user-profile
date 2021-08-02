@@ -1,0 +1,46 @@
+.login-content {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__head {
+        padding-top: 50px;
+    }
+    &__logo {
+        max-width: 150px;
+        height: 50px;
+        max-height: 50px;
+        img {
+            max-height: 100%;
+        }
+        &-text {
+            display: block;
+            font-family: $heading-font;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: $heading-clr;
+            &:hover {
+                color: $heading-clr;
+                text-decoration: none;
+            }
+        }
+    }
+    &__box {
+        text-align: center;
+    }
+
+    &__title {
+        text-transform: capitalize;
+        color: $primary;
+    }
+    &__text {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        max-width: 60ch;
+        text-align: center;
+    }
+}

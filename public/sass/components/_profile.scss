@@ -1,0 +1,40 @@
+.profile {
+    &__cover-pic {
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
+    }
+    &__info {
+        margin-top: -35px;
+    }
+    &__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid $white;
+        box-shadow: 0 0 15px rgba($dark, .2);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    &__dp {
+        display: flex;
+        align-items: center;
+    }
+    &__content {
+        padding-left: 20px;
+    }
+    &__name {
+        font-size: 22px;
+    }
+    &__sub-name {
+        font-size: 14px;
+    }
+    // &__tag {
+    //     padding-left: 20px;
+    //     padding-right: 20px;
+    // }
+}

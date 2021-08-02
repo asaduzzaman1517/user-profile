@@ -1,0 +1,140 @@
+.primary-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: $primary;
+    border-radius: 5rem;
+    color: $white;
+    font-weight: 600;
+    letter-spacing: .3em;
+    font-family: $heading-font;
+    font-size: 1rem;
+    transition: all .3s ease;
+    &:hover {
+        background: darken($primary, 1%);
+        color: $white;
+        box-shadow: 0px 10px 25px rgba($dark, .2);
+    }
+}
+.secondary-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: $white;
+    border: 2px solid $primary;
+    border-radius: 5rem;
+    color: $primary;
+    font-weight: 600;
+    letter-spacing: .1em;
+    font-family: $heading-font;
+    font-size: 1rem;
+    transition: all .3s ease;
+    &:hover {
+        background: darken($primary, 1%);
+        color: $white;
+        box-shadow: 0px 10px 25px rgba($dark, .2);
+    }
+}
+.tertiary-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: $white;
+    border: 2px solid $primary;
+    border-radius: 5rem;
+    color: $primary;
+    font-weight: 600;
+    letter-spacing: .1em;
+    font-family: $heading-font;
+    font-size: .75rem;
+    transition: all .3s ease;
+    &:hover {
+        background: darken($primary, 1%);
+        color: $white;
+        box-shadow: 0px 10px 25px rgba($dark, .2);
+    }
+}
+.tag-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: $border;
+    color: $heading-clr;
+    border-radius: 5rem;
+    font-family: $heading-font;
+    font-size: .75rem;
+    transition: all .3s ease;
+    &:hover {
+        background: darken($border, 5%);
+    }
+}
+.share-button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    transition: all .3s ease;
+    border-radius: 50%;
+    &--fb {
+        color: $fb;
+        border: 1px solid $fb;
+        &:hover {
+            background: $fb;
+            color: $white;
+        }
+    }
+    &--tw {
+        color: $tw;
+        border: 1px solid $tw;
+        &:hover {
+            background: $tw;
+            color: $white;
+        }
+    }
+    &--ins {
+        color: $ins;
+        border: 1px solid $ins;
+
+        &:hover {
+            background: $ins;
+            color: $white;
+        }
+    }
+}
+.profile-button {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    transition: all .3s ease;
+    box-shadow: 0 0 20px rgba($dark, .1);
+    &--fb {
+        color: $fb;
+        background: $white;
+        &:hover {
+            background: $fb;
+            color: $white;
+        }
+    }
+    &--tw {
+        color: $tw;
+        background: $white;
+        &:hover {
+            background: $tw;
+            color: $white;
+        }
+    }
+    &--ins {
+        color: $ins;
+        background: $white;
+
+        &:hover {
+            background: $ins;
+            color: $white;
+        }
+    }
+}
