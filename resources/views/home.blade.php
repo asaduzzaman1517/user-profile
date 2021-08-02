@@ -309,7 +309,7 @@
                                 <li class="list--column__item">
                                     <div class="similar-profile d-flex">
                                         <div class="similar-profile__content d-flex align-items-center flex-grow-1">
-                                            <div class="similar-profile__img" style="background-image: url({{ asset('img/user-1.jpg') }})"></div>
+                                            <div class="similar-profile__img flex-shrink-0" style="background-image: url({{ asset('img/user-1.jpg') }})"></div>
                                             <div class="similar-profile__text ms-3">
                                                 <a href="#" class="similar-profile__name text-capitalize">
                                                     angle henry
@@ -329,7 +329,7 @@
                                 <li class="list--column__item">
                                     <div class="similar-profile d-flex">
                                         <div class="similar-profile__content d-flex align-items-center flex-grow-1">
-                                            <div class="similar-profile__img" style="background-image: url({{ asset('img/user-2.jpg') }})"></div>
+                                            <div class="similar-profile__img flex-shrink-0" style="background-image: url({{ asset('img/user-2.jpg') }})"></div>
                                             <div class="similar-profile__text ms-3">
                                                 <a href="#" class="similar-profile__name text-capitalize">
                                                     Natalie Portman
@@ -349,7 +349,7 @@
                                 <li class="list--column__item">
                                     <div class="similar-profile d-flex">
                                         <div class="similar-profile__content d-flex align-items-center flex-grow-1">
-                                            <div class="similar-profile__img" style="background-image: url({{ asset('img/user-3.jpg') }})"></div>
+                                            <div class="similar-profile__img flex-shrink-0" style="background-image: url({{ asset('img/user-3.jpg') }})"></div>
                                             <div class="similar-profile__text ms-3">
                                                 <a href="#" class="similar-profile__name text-capitalize">
                                                     tony stark
